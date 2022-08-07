@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./all.min.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Todo_List</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">ToDoList</h1>
+            <ul class="tasks">
+                <!-- <li>Learn JavaScript <span class="delete-icon"><i class="fa-solid fa-xmark"></span></i></li>
+                <li>Learn React <span class="delete-icon"><i class="fa-solid fa-xmark"></span></i></li>
+                <li>Do Projects <span class="delete-icon"><i class="fa-solid fa-xmark"></span></i></li> -->
+            </ul>
+            <form>
+                <input
+                    id="task-input"
+                    type="text"
+                    placeholder="Enter The Task To Add"
+                />
+            </form>
+            <div class="tasks-result">
+                <div class="completed-tasks"><span>0</span> Completed</div>
+                <div class="count-tasks"><span>0</span> Count</div>
+            </div>
+            <div class="tasks-funcs">
+                <button class="delete-all-tasks">Delete All Tasks</button>
+                <button class="finish-all-tasks">Finish All Tasks</button>
+            </div>
+        </div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="./all.min.js"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
